@@ -36,6 +36,7 @@ function Home() {
     // Handle new fetch for the user
     const handleFetch = () => {
         if (fetch_number.current.value !== 0){
+            setimages([])
             axios.get(`${URL}?count=${fetch_number.current.value}&api_key=${process.env.REACT_APP_NASA_API_KEY}`)
             .then((response) => {
                 setimages(response.data);
