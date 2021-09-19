@@ -29,7 +29,7 @@ export default function MyLikeImages() {
     return (
         <>
             <Container fluid>
-                <Header subtitle="Your likes pictures"/>
+                <Header subtitle="Your liked pictures"/>
                 <Row xs={1} md={2} className="g-1">
                     {likedImages.map((image,idx) => (
                     <Image 

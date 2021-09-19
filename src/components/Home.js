@@ -47,8 +47,8 @@ function Home() {
 return (
   <>
     <Container fluid>
-      <Header images={likedImages} subtitle="Welcome to the best place around to look at some amazing picture !"/>
-        <label>How much new pictures would you like to fetch ? </label>
+      <Header images={likedImages} subtitle="Welcome to the best place around to look at some amazing pictures !"/>
+        <label>How many new pictures would you like to fetch ? </label>
         <br/>
         <input ref={fetch_number}/>
         <Button className="fetch_button" variant="success" onClick={handleFetch}>Fetch</Button>
