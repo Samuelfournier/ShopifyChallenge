@@ -1,0 +1,22 @@
+body {
+  background-color: #f9f9f9;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.like_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.fa-heart {
+  color: pink;
+}
+
+.fetch_button {
+  margin-left: 10px;
+}
